@@ -4,7 +4,7 @@
 	</b>
 </div>
 
-<image src="./public/lock.png"></image>
+<img src="./public/lock.png" alt="vector locker" style="border: 2px solid white"></img>
 
 # Motivation
 
