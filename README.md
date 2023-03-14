@@ -4,11 +4,7 @@
 	</b>
 </div>
 
-<img
-	src="./public/lock.png"
-	alt="locker"
->
-</img>
+<img src="./public/lock.png" alt="locker"></img>
 
 # Motivation
 
