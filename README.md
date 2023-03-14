@@ -6,9 +6,11 @@
 <div align="center">
 	<img src="./public/lock.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
-<div align="left">
+<div align="center">
 	<img src="./public/Sonic.png" alt="locker" style="border: 4px solid white;"></img>
+	<img src="./public/Sonic2.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
+
 
 # Motivation
 
