@@ -1,4 +1,6 @@
-<center>test</center>
+<div align="center">
+  my text here.
+</div>
 
 # Motivation
 
