@@ -4,6 +4,8 @@
 	</b>
 </div>
 
+<image src="d:\camrmine\repos\windows-app-blocker\public\lock.png></image>
+
 # Motivation
 
 This is a group student project in cybersecurity. Everything here is personal development. Do not use this project for malicious intents.
