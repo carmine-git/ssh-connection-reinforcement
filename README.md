@@ -7,7 +7,7 @@
 	<img src="./public/lock.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
 <div align="left">
-	<img src="./public/sonic.png" alt="locker" style="border: 4px solid white;"></img>
+	<img src="./public/Sonic.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
 
 # Motivation
