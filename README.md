@@ -3,8 +3,9 @@
   	App Blocker for windows
 	</b>
 </div>
-
-<img src="./public/lock.png" alt="locker"></img>
+<div align="center">
+	<img src="./public/lock.png" alt="locker"></img>
+</div>
 
 # Motivation
 
