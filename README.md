@@ -1,6 +1,4 @@
-<center>
-	test
-</center>
+<center>test</center>
 
 # Motivation
 
