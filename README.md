@@ -9,6 +9,7 @@
 <img
 	src="./public/lock.png"
 	width="200px"
+	height="200px"
 	alt="locker"
 >
 </img>
