@@ -1,4 +1,6 @@
-<center> Windows App Blocker <\center>
+<p style="text-align: center;">
+	Test
+</p>
 
 # Motivation
 
