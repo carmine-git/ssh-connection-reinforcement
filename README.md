@@ -7,7 +7,7 @@
 <img 
 	src="./public/lock.png" 
 	alt="vector locker" 
-	style="border: 2px solid white; width: 100px; height: 100px;"
+	style="width: 100px; height: 100px;"
 ></img>
 
 # Motivation
