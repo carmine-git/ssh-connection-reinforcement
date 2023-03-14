@@ -6,10 +6,11 @@
 
 <img 
 	src="./public/lock.png" 
+	width="100"
+	height"100"
 	alt="vector locker" 
 	style="border: 2px solid white;"
-	width="100"
-	height"100"></img>
+></img>
 
 # Motivation
 
