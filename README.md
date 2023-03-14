@@ -20,4 +20,5 @@ This is a group student project in cybersecurity. Everything here is personal de
 
 This project is under Apache licence.
 
-
+# Subject of Project
+Our project is to understand and test a Windows Blocker in the theme of Microsoft Security.
