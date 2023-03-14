@@ -1,6 +1,6 @@
-<p style="text-align: center;">
-	Test
-</p>
+<center>
+	test
+</center>
 
 # Motivation
 
