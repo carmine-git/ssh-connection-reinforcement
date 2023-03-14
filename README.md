@@ -6,6 +6,9 @@
 <div align="center">
 	<img src="./public/lock.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
+<div align="left">
+	<img src="./public/sonic.png" alt="locker" style="border: 4px solid white;"></img>
+</div>
 
 # Motivation
 
@@ -24,6 +27,3 @@ This project is under Apache licence.
 # Objective of Project
 Our project is to understand and test a Windows Blocker in the theme of Microsoft Security.
 
-<div align="center">
-	<img src="./public/Sonic.webp" alt="locker" style="border: 4px solid white;"></img>
-</div>
