@@ -6,6 +6,13 @@
 
 ![vector lock](public/lock.png) <!-- .element height="100px" width="px" -->
 
+<img
+	src="./public/lock.png"
+	width="200px"
+	alt="locker"
+>
+</img>
+
 # Motivation
 
 This is a group student project in cybersecurity. Everything here is personal development. Do not use this project for malicious intents.
