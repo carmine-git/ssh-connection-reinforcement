@@ -12,6 +12,6 @@ This is a group student project in cybersecurity. Everything here is personal de
 
 # Licence
 
-This project is under MIT licence.
+This project is under Apache licence.
 
 
