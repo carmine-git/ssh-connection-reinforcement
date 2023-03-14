@@ -4,7 +4,7 @@
 	</b>
 </div>
 
-<image src="d:\carmine\repos\windows-app-blocker\public\lock.png></image>
+<image src="./public/lock.png" alt="vector locker"></image>
 
 # Motivation
 
