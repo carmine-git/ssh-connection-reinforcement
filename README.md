@@ -4,7 +4,7 @@
 	</b>
 </div>
 
-![vector lock](public/lock.png) <!-- .element height="50%" width="50%" -->
+![vector lock](public/lock.png) <!-- .element height="100px" width="px" -->
 
 # Motivation
 
