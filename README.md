@@ -3,9 +3,11 @@
   	App Blocker for windows
 	</b>
 </div>
-
 <div align="center">
 	<img src="./public/lock.png" alt="locker" style="border: 4px solid white;"></img>
+</div>
+<div align="center">
+	<img src="./public/minecraft.jpg" alt="locker" style="border: 4px solid white;"></img>
 </div>
 
 # Motivation
