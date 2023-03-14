@@ -3,7 +3,6 @@
   	App Blocker for windows
 	</b>
 </div>
-![vector locker](public/lock.png)
 
 <img src="./public/lock.png" alt="vector locker" style="border: 2px solid white"></img>
 
