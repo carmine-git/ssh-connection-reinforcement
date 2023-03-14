@@ -4,7 +4,15 @@
 	</b>
 </div>
 
-<img src="./public/lock.png" alt="vector locker" style="border: 2px solid white"></img>
+<img 
+	src="./public/lock.png" 
+	alt="vector locker" 
+	style="
+		border: 2px solid white;
+		width: 100px
+		height: 100px
+	"
+></img>
 
 # Motivation
 
