@@ -4,12 +4,12 @@
 	</b>
 </div>
 
-![vector lock](public/lock.png) <!-- .element height="100px" width="px" -->
+![vector lock](public/lock.png) <!-- .element height="5%" width="5%" -->
 
 <img
 	src="./public/lock.png"
-	width="200px"
-	height="200px"
+	width="5%"
+	height="5%"
 	alt="locker"
 >
 </img>
