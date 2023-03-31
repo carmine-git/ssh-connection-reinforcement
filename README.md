@@ -9,21 +9,23 @@
 	<img src="./public/Sonic2.png" alt="locker" style="border: 4px solid white;"></img>
 </div>
 
-# Motivation
+# Motivation :
 
 This is a group student project in cybersecurity. Everything here is personal development.
 Do not use this project for malicious intents.
 
-# Authors
+# Authors :
 
 - Vincent
 - Lukmane
 - Talal
 
-# Licence
+# Licence :
 
 This project is under Apache licence.
 
-# Objective of Project
+# Objective of Project :
 Our project is to understand and test a Windows Blocker in the theme of Microsoft Security.
+
+# Recherche :
 
