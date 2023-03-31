@@ -11,7 +11,8 @@
 
 # Motivation
 
-This is a group student project in cybersecurity. Everything here is personal development. Do not use this project for malicious intents.
+This is a group student project in cybersecurity. Everything here is personal development.
+Do not use this project for malicious intents.
 
 # Authors
 
