@@ -30,17 +30,17 @@ TODO:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## I)
+## I) Problème potentiels de sécurité
 
-a)
+a) approche théorique :
 
-b) 
+b) illustration : 
 
-## II)
+## II) Remédiation 
 
-a)
+a) approche théorique :
 
-b)
+b) mise en oeuvre :
 
 ## Conclusion
 
