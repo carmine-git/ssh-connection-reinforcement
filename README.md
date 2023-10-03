@@ -19,26 +19,24 @@ TODO:
 ## Cahier des Charges :
 
 ### Problèmatique : 
-comment ajouter une couche de sécurité pour une connexion SSH 
+- Comment ajouter une couche de sécurité pour une connexion SSH ?
 
 ### Fourniture : 
 - 3 personnes : Talal, Lukmane, Vincent
 - 2 VM (Virtual Machine)
 
 ### Budget : 
-0 $
+- 0 $
 
 ## I)
 
-### a)
-
-### b) 
+a)
+b) 
 
 ## II)
 
-### a)
-
-### b)
+a)
+b)
 
 ## Conclusion
 
