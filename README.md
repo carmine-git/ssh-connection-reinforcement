@@ -33,7 +33,7 @@ TODO:
 
 ## Hypothèse et Théories 
 
-Source des hypothèses : [clic-ici](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
+ [Source des hypothèses](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
 
 1) Utiliser des connexions basées sur la clé publique SSH :
    pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
