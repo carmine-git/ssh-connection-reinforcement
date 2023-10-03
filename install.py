@@ -18,11 +18,24 @@ with os.popen(f"{base_path}pam.d/sshd", "a") as sshd_file:
     sshd_file.write("auth required pam_google_authenticator.so")
 
 print(f"Reading {base_path}ssh/sshd_config")
+text_to_change = "ChallengeResponseAuthentication"
 with os.popen(f"{base_path}ssh/sshd_config", "r") as rconfig:
     data = rconfig.read()
-    data = data.replace(
-        "ChallengeResponseAuthentication no", "ChallengeResponseAuthentication yes"
-    )
+    data = data.replace(f"{text_to_change} no", f"{text_to_change} yes")
 
-#    print(f"Writing to {base_path}ssh/sshd_config")
-#   with os.popen(f"{base_path}") 
+    print(f"Writing to {base_path}ssh/sshd_config")
+    with os.popen(f"{base_path}") as wconfig:
+        wconfig.write(data)
+
+    new_data = rconfig.read().lower()
+    changed = False
+    if f"{text_to_change} yes" in new_data:
+        changed = True
+
+    if not changed:
+        raise Exception(
+            "The config text modification have not been made correctly, please retry"
+        )
+
+print("Restarting ssh services")
+os.system("sudo systemctl restart sshd.service")
