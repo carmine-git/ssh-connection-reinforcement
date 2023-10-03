@@ -14,20 +14,53 @@ TODO:
  - Nous ferons en sorte que nous pouvons désactiver l'autentification a 2 facteurs.
 --->
 
+# Projet de Sécurisation d'un accès SSH
 
-## Projet : 
-Sécurisation d'un accès SSH
+## Cahier des Charges 
 
-## Problèmatique : 
-comment ajouter une couche de sécurité pour une connexion SSH 
+### Problèmatique 
+- Comment ajouter une couche de sécurité pour une connexion SSH ?
 
-## Fourniture : 
+### Fourniture  
 - 3 personnes : Talal, Lukmane, Vincent
 - 2 VM (Virtual Machine)
 
-## Budget : 
-0 $
+### Budget  
+- 0 $
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Parties 
+
+## Hypothèse et Théories 
+
+1) Utiliser des connexions basées sur la clé publique SSH :
+   pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
+   ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé
+
+
+   ```sh
+   [root@webcadmin1 tmp]# ssh-keygen -t rsa -b 2048 -c
+   Generating public/private rsa key pair.
+   Enter file in which to save the key (/root/.ssh/id_rsa):/root/.ssh/id_rsa2
+   Enter passphrase (empty for no passphrase):
+   Enter same passphrase again:
+   
+   The key fingerprint is:
+ 
+   The key's randomart image is:
+   
+   ```
+
+
+b) 
+
+## Mise en pratique 
+
+a) approche théorique :
+
+b) mise en oeuvre :
+
+## Conclusion
 
 
 
