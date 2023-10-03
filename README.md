@@ -30,13 +30,15 @@ TODO:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## I) Problème potentiels de sécurité
+## I) Hypothèse et Théories 
 
-a) approche théorique :
+1) Utiliser des connexions basées sur la clé publique SSH :
+   pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
+   ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé
 
-b) illustration : 
+b) Partie Server 
 
-## II) Remédiation 
+## II) Mise en pratique 
 
 a) approche théorique :
 
