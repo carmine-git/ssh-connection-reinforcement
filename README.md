@@ -14,12 +14,9 @@ TODO:
  - Nous ferons en sorte que nous pouvons désactiver l'autentification a 2 facteurs.
 --->
 
-# Projet de groupe - Cyber Sécurité 
+# Projet de Sécurisation d'un accès SSH
 
-## Sommaire
-
-### Nom du Projet : 
-Sécurisation d'un accès SSH
+## Cahier des Charges 
 
 ### Problèmatique : 
 comment ajouter une couche de sécurité pour une connexion SSH 
