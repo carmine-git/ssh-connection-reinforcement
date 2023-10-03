@@ -16,45 +16,45 @@ TODO:
 
 # Projet de Sécurisation d'un accès SSH
 
-## Cahier des Charges :
+## Cahier des Charges 
 
-### Problèmatique : 
+### Problèmatique 
 - Comment ajouter une couche de sécurité pour une connexion SSH ?
 
-### Fourniture : 
+### Fourniture  
 - 3 personnes : Talal, Lukmane, Vincent
 - 2 VM (Virtual Machine)
 
-### Budget : 
+### Budget  
 - 0 $
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Parties 
 
-## I) Hypothèse et Théories 
+## Hypothèse et Théories 
 
 1) Utiliser des connexions basées sur la clé publique SSH :
    pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
    ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé
-   ```
+
+
+   ```sh
    [root@webcadmin1 tmp]# ssh-keygen -t rsa -b 2048 -c
    Generating public/private rsa key pair.
    Enter file in which to save the key (/root/.ssh/id_rsa):/root/.ssh/id_rsa2
    Enter passphrase (empty for no passphrase):
    Enter same passphrase again:
-   Your identification has been saved in /root/.ssh/id_rsa2
-   Your public key has been saved in /root/.ssh/id_rsa2.pub.
+   
    The key fingerprint is:
-   SHA256:i22jt6+eCXiwyiGVisE35Q5SZ43LaODkIk3dCC/4VXs
+ 
    The key's randomart image is:
-   +--[RSA 2048]--+
-   |.. |
    
    ```
 
 
 b) 
 
-## II) Mise en pratique 
+## Mise en pratique 
 
 a) approche théorique :
 
