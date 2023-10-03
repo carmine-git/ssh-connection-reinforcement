@@ -46,10 +46,11 @@ TODO:
    Enter file in which to save the key (/root/.ssh/id_rsa):/root/.ssh/id_rsa2
    Enter passphrase (empty for no passphrase):
    Enter same passphrase again:
-   
+   ...
    The key fingerprint is:
- 
+   ...
    The key's randomart image is:
+   ...
    
    ```
 
