@@ -35,7 +35,7 @@ TODO:
 1) Utiliser des connexions basées sur la clé publique SSH :
    pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
    ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé
-   '''
+   ```
    [root@webcadmin1 tmp]# ssh-keygen -t rsa -b 2048 -c
    Generating public/private rsa key pair.
    Enter file in which to save the key (/root/.ssh/id_rsa):/root/.ssh/id_rsa2
@@ -49,7 +49,7 @@ TODO:
    +--[RSA 2048]--+
    |.. |
    
-   '''
+   ```
 
 
 b) 
