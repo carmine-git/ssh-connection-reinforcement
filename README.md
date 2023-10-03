@@ -14,9 +14,9 @@ TODO:
  - Nous ferons en sorte que nous pouvons désactiver l'autentification a 2 facteurs.
 --->
 
-# <u> "Projet de Sécurisation d'un accès SSH" </u>
+# Projet de Sécurisation d'un accès SSH
 
-## Cahier des Charges 
+## Cahier des Charges :
 
 ### Problèmatique : 
 comment ajouter une couche de sécurité pour une connexion SSH 
@@ -28,6 +28,19 @@ comment ajouter une couche de sécurité pour une connexion SSH
 ### Budget : 
 0 $
 
+## I)
+
+### a)
+
+### b) 
+
+## II)
+
+### a)
+
+### b)
+
+## Conclusion
 
 
 
