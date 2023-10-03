@@ -28,14 +28,18 @@ TODO:
 ### Budget : 
 - 0 $
 
+
+
 ## I)
 
 a)
+
 b) 
 
 ## II)
 
 a)
+
 b)
 
 ## Conclusion
