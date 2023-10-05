@@ -2,5 +2,12 @@
 
 import subprocess
 
-user_console_output = subprocess.call("whoami", shell=True)
-print(user_console_output)
+console_output = subprocess.check_output("whoami").decode()
+letters = []
+
+for letter in console_output.strip():
+    if letter == "\n" or letter == " " or letter == "":
+        break
+    letters.append(letter)
+
+user = "".join(letters)
