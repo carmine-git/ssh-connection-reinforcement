@@ -28,9 +28,7 @@
 
 1) Utiliser des connexions basées sur la clé publique SSH :
    
-   pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac
-   
-   ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé.
+   pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé.
 
    Exemple :
 
@@ -49,31 +47,15 @@ Si tu veux faire une liste avec des lettres utilise ces balises HTML.
 </ol>
 --->
 
-   Informations ci-dessus :
+Informations ci-dessus :
 
    - l'option " -t " permet de donner un nom à l'algorithme, ici c'est " rsa "
 
-   - l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " car pour une clé RSA,
-
-     généralement on peut mettre 1024 bits au minimum mais par default 3072 bits est considéré comme suffisant
+   - l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " car pour une clé RSA, 
+   généralement on peut mettre 
+   1024 bits au minimum mais par default 3072 bits est considéré comme suffisant
 
    - l'option " -c " permet de donner un commantaire 
-
----
-
-2) Activer l'authentification multifacteur :
-
-   pour cela, il faut implémenter une connexion simple ou une connexion push pour MFA (Multi-Factor-Authentification) sous Linux
-
-   pour une implémentation d'une connexion push pour MFA sous Linux :
-
-   on doit d'abord disposer d'un serveur OpenOPT et Spankey configuré via WebADM,
-
-   ensuite on doit installer : spankey_client, pam_openopt et nscd paquet.
-
-   pour ses étapes, suivre les [indications](https://docs.rcdevs.com/howtos/openotp_pam/pam_openotp/)
-
-
 
 ## Mise en pratique 
 
