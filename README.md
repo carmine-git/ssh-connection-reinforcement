@@ -59,6 +59,21 @@ Si tu veux faire une liste avec des lettres utilise ces balises HTML.
 
    - l'option " -c " permet de donner un commantaire 
 
+---
+
+2) Activer l'authentification multifacteur :
+
+   pour cela, il faut implémenter une connexion simple ou une connexion push pour MFA (Multi-Factor-Authentification) sous Linux
+
+   pour une implémentation d'une connexion push pour MFA sous Linux :
+
+   on doit d'abord disposer d'un serveur OpenOPT et Spankey configuré via WebADM,
+
+   ensuite on doit installer : spankey_client, pam_openopt et nscd paquet.
+
+   pour ses étapes, suivre les [indications](https://docs.rcdevs.com/howtos/openotp_pam/pam_openotp/)
+
+
 
 ## Mise en pratique 
 
