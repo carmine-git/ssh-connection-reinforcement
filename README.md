@@ -1,18 +1,8 @@
-<!---
-TODO: 
-- Redaction
- - Utilisation de titres (#), sous-titres (##) ou sous-sous-titres (###, etc.)
- - Merci de tout écrire en français pour eviter les erreurs d'incompréhension.
- - Ecrire le code ou les commandes utilisées directement sur le fichier sans prendre de photos d'écran
- - Spécifier aussi le langage si possible comme par ex.: ```py "le code" ```
+[TODO]: # (Continuer le fichier markdown) 
+[TODO]: # (Setup les deux machines virtuels)
+[TODO]: # (Implémenter la connexion 2FA)
+[TODO]: # (Tester le ficher d'installation)
 
-- Procédure
- - Nous utiliserons Google authenticator pour implémenter la couche de sécurité
- - Vincent rédigera le PPT et le markdown.
- - Lukmane et vincent pourra setup une MV client et une MV serveur pour la connection SSH
- - Talal fera en sorte de setup la A2F sur la machine server.
- - Nous ferons en sorte que nous pouvons désactiver l'autentification a 2 facteurs.
---->
 
 # Projet de Sécurisation d'un accès SSH
 
@@ -56,6 +46,18 @@ TODO:
    ...
    
    ```
+
+<!---
+Essaye d'utiliser "``" (sans les guillemets) pour surligner les options de la commandes.
+Tu peux aussi tout écrire sur la même ligne, c'est plus propre et plus pro.
+
+Si tu veux faire une liste avec des lettres utilise ces balises HTML.
+<ol type="a">
+    <li>truc</li>
+    <li>machin</li>
+</ol>
+--->
+
    Informations ci-dessus :
 
    - l'option " -t " permet de donner un nom à l'algorithme, ici c'est " rsa "
@@ -74,7 +76,3 @@ a)
 b) 
 
 ## Conclusion
-
-
-
-
