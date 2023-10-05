@@ -28,6 +28,8 @@
 
  [Sources](https://www.rcdevs.com/fr7-ways-to-secure-your-ssh-server/)
 
+   1er méthode :
+   
    Tout d'abord, 
    on utilise des connexions basées sur la clé publique SSH :
    pour cela, il faut générer une paire de clés à l'aide 
