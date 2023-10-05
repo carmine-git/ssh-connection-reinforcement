@@ -68,7 +68,7 @@ Si tu veux faire une liste avec des lettres utilise ces balises HTML.
 
 ### Mise en pratique
 
-a)jefpoajfpoeajfpioaejfaepijfaeiopfj
+a)
 
 b)
 
