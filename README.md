@@ -1,33 +1,35 @@
-[TODO]: # (Continuer le fichier markdown) 
-[TODO]: # (Setup les deux machines virtuels)
-[TODO]: # (Implémenter la connexion 2FA)
-[TODO]: # (Tester le ficher d'installation)
-
+[TODO]: # "Continuer le fichier markdown"
+[TODO]: # "Setup les deux machines virtuels"
+[TODO]: # "Implémenter la connexion 2FA"
+[TODO]: # "Tester le ficher d'installation"
 
 # Projet de Sécurisation d'un accès SSH
 
-## Cahier des Charges 
+## Cahier des Charges
 
-### Problèmatique 
+### Problèmatique
+
 - Comment ajouter une couche de sécurité pour une connexion SSH ?
 
-### Fourniture  
+### Fourniture
+
 - 3 personnes : Talal, Lukmane, Vincent
 - 2 VM (Virtual Machine)
 
-### Budget  
+### Budget
+
 - 0 $
 
 ---
 
-# Parties 
+# Parties
 
-## Hypothèse et Théories 
+## Hypothèse et Théories
 
- [Source des hypothèses](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
+[Source des hypothèses](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
 
-1) Utiliser des connexions basées sur la clé publique SSH :
-   
+1. Utiliser des connexions basées sur la clé publique SSH :
+
    pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé.
 
    Exemple :
@@ -49,18 +51,18 @@ Si tu veux faire une liste avec des lettres utilise ces balises HTML.
 
 Informations ci-dessus :
 
-   - l'option " -t " permet de donner un nom à l'algorithme, ici c'est " rsa "
+- l'option " -t " permet de donner un nom à l'algorithme, ici c'est " rsa "
 
-   - l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " car pour une clé RSA, 
-   généralement on peut mettre 
-   1024 bits au minimum mais par default 3072 bits est considéré comme suffisant
+- l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " car pour une clé RSA,
+  généralement on peut mettre
+  1024 bits au minimum mais par default 3072 bits est considéré comme suffisant
 
-   - l'option " -c " permet de donner un commantaire 
+- l'option " -c " permet de donner un commantaire
 
-## Mise en pratique 
+## Mise en pratique
 
-a) 
+a)
 
-b) 
+b)
 
 ## Conclusion
