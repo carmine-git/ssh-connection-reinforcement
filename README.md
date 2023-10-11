@@ -26,7 +26,7 @@
 
 ## Procédure :
 
- [Sources](https://www.rcdevs.com/fr7-ways-to-secure-your-ssh-server/)
+ [Sources](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
    
    Tout d'abord, on utilise des connexions basées sur la clé publique SSH :
    
