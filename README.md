@@ -27,16 +27,12 @@
 ## Procédure :
 
  [Sources](https://www.rcdevs.com/fr7-ways-to-secure-your-ssh-server/)
-
-   1er méthode :
    
-   Tout d'abord, 
-   on utilise des connexions basées sur la clé publique SSH :
-   pour cela, il faut générer une paire de clés à l'aide 
-   de la commande "ssh-keygen" à partir de la machine 
-   Linux, Windows ou Mac. 
-   Ensuite, il faut entrer le chemin d'accès au fichier 
-   dans lequel on veux enregistrer la clé.
+   Tout d'abord, on utilise des connexions basées sur la clé publique SSH :
+   
+   pour cela, il faut générer une paire de clés à l'aide de la commande "ssh-keygen" à partir de la machine Linux, Windows ou Mac. 
+   
+   Ensuite, il faut entrer le chemin d'accès au fichier dans lequel on veux enregistrer la clé.
 
    Exemple :
 
@@ -59,10 +55,9 @@ Si tu veux faire une liste avec des lettres utilise ces balises HTML.
 
    - l'option " -t " permet de donner un nom à l'algorithme, ici c'est " rsa "
 
-   - l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " 
-   car pour une clé RSA, généralement on peut mettre 
-   1024 bits au minimum mais par default 3072 bits 
-   est considéré comme suffisant
+   - l'option " -b " permet de définir le nombre de bits dans la création de la clé, ici c'est " 3072 " car pour une clé RSA,
+   
+   généralement on peut mettre 1024 bits au minimum mais par default 3072 bits est considéré comme suffisant
 
    - l'option " -c " permet de donner un commantaire
 
