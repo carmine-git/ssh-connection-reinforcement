@@ -49,9 +49,7 @@ Téléchargez le logiciel VMWare.
 Pour celà rendez-vous sur le site : https://wwwvmware.com/fr/products/workstation-player.html
 puis cliquez sur " télécharger gratuitement " puis sur " GO TO DOWNLOADS " et enfin sur " DOWNLOAD NOW " en choisisant la version Windows ou Linux.
 
-Lancez le logiciel VMWare.
-
-Créer 2 machine virtuel.
+Lancez le logiciel VMWare puis créer 2 machine virtuel.
 
 Pour celà cliquez sur " Create a new Virtual Machine", 
 enuite choisissez les options de configuration de sorte à ce qu'elle puisse communiquer avec l'autre machine virtuel.
