@@ -53,5 +53,5 @@ Lancez le logiciel VMWare.
 
 Créer 2 machine virtuel.
 
-Pour celà cliquez sur " CREATE "
-Configurez chaque machine de sorte à ce qu'elle puisse se communiquer entre elle puis sur internet.
+Pour celà cliquez sur " Create a new Virtual Machine", 
+enuite choisissez les options de configuration de sorte à ce qu'elle puisse communiquer avec l'autre machine virtuel.
