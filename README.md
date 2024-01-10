@@ -43,3 +43,8 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 ~$ sudo apt update && sudo apt install libpam-google-authenticator
 ```
 ## Procédure
+
+Créer 2 machine virtuel avec le logiciel VMWare.
+Pour celà rendez-vous sur le site : [https://wwwvmware.com/fr/products/workstation-player.html] 
+puis cliquez sur " télécharger gratuitement " puis sur " GO TO DOWNLOADS " et enfin sur " DOWNLOAD NOW " en choisisant la version Windows ou Linux.
+Configurez chaque machine de sorte à ce qu'elle puisse se communiquer entre elle puis sur internet.
