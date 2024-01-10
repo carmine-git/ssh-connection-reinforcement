@@ -18,7 +18,7 @@ Comment ajouter une couche de sécurité pour une connexion SSH ?
 ---
 
 
-# Procédure
+## Méthode
 
 [Sources](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
 
@@ -42,3 +42,4 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 ```sh
 ~$ sudo apt update && sudo apt install libpam-google-authenticator
 ```
+## Procédure
