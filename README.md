@@ -55,3 +55,4 @@ Créer 2 machine virtuel.
 
 Pour celà cliquez sur " Create a new Virtual Machine", 
 enuite choisissez les options de configuration de sorte à ce qu'elle puisse communiquer avec l'autre machine virtuel.
+Une fois les options choisit et la configuration terminé, lancez la machine virtuel.
