@@ -50,4 +50,5 @@ Pour celà rendez-vous sur le site : https://wwwvmware.com/fr/products/workstati
 puis cliquez sur " télécharger gratuitement " puis sur " GO TO DOWNLOADS " et enfin sur " DOWNLOAD NOW " en choisisant la version Windows ou Linux.
 
 Créer 2 machine virtuel.
+
 Configurez chaque machine de sorte à ce qu'elle puisse se communiquer entre elle puis sur internet.
