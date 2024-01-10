@@ -44,7 +44,7 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 ```
 ## Procédure
 
-Téléxhargez le logiciel VMWare.
+Téléchargez le logiciel VMWare.
 
 Pour celà rendez-vous sur le site : [https://wwwvmware.com/fr/products/workstation-player.html] 
 puis cliquez sur " télécharger gratuitement " puis sur " GO TO DOWNLOADS " et enfin sur " DOWNLOAD NOW " en choisisant la version Windows ou Linux.
