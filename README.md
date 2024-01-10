@@ -54,3 +54,4 @@ Lancez le logiciel VMWare puis créer 1 machine virtuel de type Server et 1 mach
 Pour celà cliquez sur " Create a new Virtual Machine", 
 enuite choisissez les options de configuration pour chaque machine de sorte à ce qu'elles communiques entre elles.
 Une fois les options choisit et la configuration terminé, lancez les machines virtuels.
+Pour que ces 2 machines virtuels communique avec internet, il faut ...
