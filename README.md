@@ -84,7 +84,7 @@ Pour ajouter votre clé à ssh-agent, tapez :
 ssh-add ~/path/to/my_key.
 ```
 Maintenant, quand vous exécutez Git Bash pour la première fois, vous êtes invité à entrer votre phrase secrète :
-
+#000000
 ```sh
 > Initializing new SSH agent...
 > succeeded
