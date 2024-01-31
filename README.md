@@ -85,7 +85,7 @@ ssh-add ~/path/to/my_key.
 ```
 Maintenant, quand vous exécutez Git Bash pour la première fois, vous êtes invité à entrer votre phrase secrète :
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 ```sh
 > Initializing new SSH agent...
 > succeeded
