@@ -85,7 +85,14 @@ fi
 
 unset env
 ```
+Si votre clé privée n’est pas stockée à l’un des emplacements par défaut (comme ~/.ssh/id_rsa),
+vous devez indiquer à votre agent d’authentification SSH où la trouver. 
 
+Pour ajouter votre clé à ssh-agent, tapez :
+
+```sh
+ssh-add ~/path/to/my_key.
+``` 
 ## Procédure
 
 
