@@ -44,14 +44,4 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 ```
 ## Procédure
 
-Téléchargez le logiciel VMWare.
 
-Pour celà rendez-vous sur le site : https://wwwvmware.com/fr/products/workstation-player.html
-puis cliquez sur " télécharger gratuitement " puis sur " GO TO DOWNLOADS " et enfin sur " DOWNLOAD NOW " en choisisant la version Windows ou Linux.
-
-Lancez le logiciel VMWare puis créer 1 machine virtuel de type Server et 1 machine virtuel de type Client.
-
-Pour celà cliquez sur " Create a new Virtual Machine", 
-enuite choisissez les options de configuration pour chaque machine de sorte à ce qu'elles communiques entre elles.
-Une fois les options choisit et la configuration terminé, lancez les machines virtuels.
-Pour que ces 2 machines virtuels communique avec internet, il faut ...
