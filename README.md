@@ -42,7 +42,6 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 [Sources](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases).
 
 ajouter une phrase sercrète à la clé SSH : 
-
 pour celà, vous pouvez modifier la phrase secrète d’une clé privée existante sans regénérer la paire de clés en tapant la commande suivante :
 
 ```sh
@@ -54,9 +53,7 @@ $ ssh-keygen -p -f ~/.ssh/id_ed25519
 > Your identification has been saved with the new passphrase.
 ```
 ! Si votre clé a déjà une phrase secrète, vous êtes invité à l’entrer avant de pouvoir définir une nouvelle phrase secrète !
-
 Ensuite, Vous pouvez exécuter ssh-agent automatiquement quand vous ouvrez un interpréteur de commandes Bash ou Git. 
-
 Copiez les lignes suivantes et collez-les dans votre fichier ~/.profile ou ~/.bashrc dans l’interpréteur de commandes Git :
 
 ```sh
