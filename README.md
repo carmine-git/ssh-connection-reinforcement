@@ -11,14 +11,11 @@ Comment ajouter une couche de sécurité pour une connexion SSH ?
 - 3 personnes : Talal, Lukmane, Vincent
 - 2 VM (Virtual Machine)
 
-### Budget
-
-0 $
 
 ---
 
 
-## Méthodes
+## Méthode
 
 [Sources](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
 
