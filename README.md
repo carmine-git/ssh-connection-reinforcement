@@ -18,7 +18,7 @@ Comment ajouter une couche de sécurité pour une connexion SSH ?
 ---
 
 
-## Méthode
+## Méthodes
 
 [Sources](https://www.rcdevs.com/fr/7-ways-to-secure-your-ssh-server/)
 
@@ -92,7 +92,19 @@ Pour ajouter votre clé à ssh-agent, tapez :
 
 ```sh
 ssh-add ~/path/to/my_key.
-``` 
+```
+Maintenant, quand vous exécutez Git Bash pour la première fois, vous êtes invité à entrer votre phrase secrète :
+
+```sh
+> Initializing new SSH agent...
+> succeeded
+> Enter passphrase for /c/Users/YOU/.ssh/id_rsa:
+> Identity added: /c/Users/YOU/.ssh/id_rsa (/c/Users/YOU/.ssh/id_rsa)
+> Welcome to Git 
+>
+> Run 'git help git' to display the help index.
+> Run 'git help <command>' to display help for specific commands.
+```
 ## Procédure
 
 
