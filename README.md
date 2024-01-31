@@ -97,6 +97,6 @@ Maintenant, quand vous exécutez Git Bash pour la première fois, vous êtes inv
 > Run 'git help git' to display the help index.
 > Run 'git help <command>' to display help for specific commands.
 ```
-## Procédure
+## Application 
 
 
