@@ -42,6 +42,16 @@ Ensuite vous devez installer la `libpam-google-authenticator` module dans votre 
 ```sh
 ~$ sudo apt update && sudo apt install libpam-google-authenticator
 ```
+
+ajouter une phrase sercrète à la clé SSH : pour celà, vous pouvez modifier la phrase secrète d’une clé privée existante sans regénérer la paire de clés en tapant la commande suivante : 
+```sh
+$ ssh-keygen -p -f ~/.ssh/id_ed25519
+> Enter old passphrase: [Type old passphrase]
+> Key has comment 'your_email@example.com'
+> Enter new passphrase (empty for no passphrase): [Type new passphrase]
+> Enter same passphrase again: [Repeat the new passphrase]
+> Your identification has been saved with the new passphrase.
+```
 ## Procédure
 
 
