@@ -54,48 +54,6 @@ $ ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
 ! Si votre clé a déjà une phrase secrète, vous êtes invité à l’entrer avant de pouvoir définir une nouvelle phrase secrète !
 
-Ensuite, Vous pouvez exécuter ssh-agent automatiquement quand vous ouvrez un interpréteur de commandes Bash ou Git. 
-Copiez les lignes suivantes et collez-les dans votre fichier ~/.profile ou ~/.bashrc dans l’interpréteur de commandes Git :
-
-```sh
-env=~/.ssh/agent.env
-agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
-agent_start () {
-    (umask 077; ssh-agent >| "$env")
-    . "$env" >| /dev/null ; }
-agent_load_env
-
-# agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
-agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
-if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
-    agent_start
-    ssh-add
-elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
-    ssh-add
-fi
-unset env
-```
-Si votre clé privée n’est pas stockée à l’un des emplacements par défaut (comme ~/.ssh/id_rsa),
-vous devez indiquer à votre agent d’authentification SSH où la trouver. 
-
-Pour ajouter votre clé à ssh-agent, tapez :
-
-```sh
-ssh-add ~/path/to/my_key.
-```
-Maintenant, quand vous exécutez Git Bash pour la première fois, vous êtes invité à entrer votre phrase secrète :
-
-
-```sh
-> Initializing new SSH agent...
-> succeeded
-> Enter passphrase for /c/Users/YOU/.ssh/id_rsa:
-> Identity added: /c/Users/YOU/.ssh/id_rsa (/c/Users/YOU/.ssh/id_rsa)
-> Welcome to Git 
->
-> Run 'git help git' to display the help index.
-> Run 'git help <command>' to display help for specific commands.
-```
 ## Application 
 
 
