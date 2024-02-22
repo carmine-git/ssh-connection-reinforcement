@@ -37,7 +37,7 @@ Pour machines CentOS/RHEL
 sudo yum install google-authenticator
 ```
 
-## Installation du du module
+## Installation du module
 
 Nous commençons la partie la plus dur du tutoriel mais rassurez-vous, nous avons fait les recherches à votre place!
 
