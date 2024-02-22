@@ -1,6 +1,6 @@
-<div>
-  <img src="/public/logo.png" style="height: 100px; width:100px;"/>
-</div>
+<center>
+  <img src="/public/logo.png" style="height: 100px; width:200px;"/>
+</center>
 
 # Sécurisation d'une connnexion ssh vers un serveur
 
