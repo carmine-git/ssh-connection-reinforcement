@@ -94,8 +94,3 @@ sudo service sshd restart
 
 A cette étape, vous pouvez alors vous connecter via le serveur ssh en entrant son domaine généralement écris de cette manière [compte]@[adresse]
 Lorsque vous avez tapé le mot de passe, vous pouvez alors taper le code de vérification générer automatiquement par votre application d'authentification.
-
-## Application
-
-[Sources](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html)
-[Sources](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases).
