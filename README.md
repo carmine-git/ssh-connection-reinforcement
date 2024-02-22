@@ -1,6 +1,6 @@
-<center>
-  ![LOGO](./public/logo.png "VLT")
-</center>
+<div>
+  <img src="/public/logo.png" style="height: 100px; width:100px;"/>
+</div>
 
 # Sécurisation d'une connnexion ssh vers un serveur
 
