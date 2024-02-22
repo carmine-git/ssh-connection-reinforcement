@@ -1,5 +1,5 @@
 <center>
-  <img src="/public/logo.png" style="height: 100px; width:200px;"/>
+  <img src="/public/logo.png" style="height: 100px; width:150px;"/>
 </center>
 
 # Sécurisation d'une connnexion ssh vers un serveur
